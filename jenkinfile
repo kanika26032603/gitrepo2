@@ -10,8 +10,7 @@ pipeline {
           stage('PublishStage') {
             steps {
                 echo 'Publish Successful'
-            }  
-            
+            }   
         }
     }
 }
